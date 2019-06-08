@@ -1,8 +1,8 @@
 const express = require('express');
 const db = require('./db');
 const bodyParser = require('body-parser');
-const indexController = require('./Controllers/index');
-const usersController = require('./Controllers/users');
+const indexController = require('./controllers/index');
+const usersController = require('./controllers/users');
 
 const app = express();
 
